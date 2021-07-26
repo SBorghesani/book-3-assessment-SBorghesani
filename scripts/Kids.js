@@ -10,7 +10,7 @@ document.addEventListener(
 
             for (const child of children) {
                 if (child.id === parseInt(childId)) {
-                    window.alert(`${child.name}'s wish is ${child.wish}`)
+                    window.alert(`${child.name} has a wish of ${child.wish}`)
                 }
             }
         }
